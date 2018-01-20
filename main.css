@@ -19,6 +19,17 @@ section{
   width: 70%;
   float: right;
 }
+footer {
+    display: block;
+    align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    background-color: #AB9935;
+    color: #000;
+    text-align: center;
+}
 .main-image{
   height: inherit;
   float: left;
