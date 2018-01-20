@@ -19,31 +19,26 @@ section{
   width: 70%;
   float: right;
 }
-footer {
-    display: block;
-    align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 70%;
-    background-color: #AB9935;
-    color: #000;
-    text-align: center;
+section.footer{
+  border: 10px solid rgba(166,148,44,1);
+  width: 70%;
+  float: right;
+  background-color: #f8f0d3;
+  color: #000;
+  text-align: center;
 }
 .main-image{
   height: inherit;
   float: left;
   display: block;
   position: absolute;
-  padding-right: 10px;
 }
 .family{
   float: right;
   border: 10px double #E2D8AC;
-  margin: 0 auto 0 auto;
 }
 sidenav{
-  height: 71%;
+  height: 115.7%;
 	width: 20%;
 	position: absolute;
   background-color: #000;
@@ -55,28 +50,72 @@ sidenav a{
   padding: 8px 16px;
   text-decoration: none;
   display: block;
+  font-size: 25px;
 }
 sidenav a:hover {
   background-color: #555;
   color: white;
+  font-size: 25px;
 }
 .active {
   background-color: rgba(166,148,44,1);
   color: white;
 }
+.button:link{
+ display: inline;
+ text-align: center;
+ font-family: serif;
+ color: #000;
+ font-size: 25px;
+ font-weight: bold;
+ text-decoration: none;
+ padding-left: 40px;
+ padding-right: 40px;
+}
+.button:visited{
+  display: inline;
+  text-align: center;
+  font-family: serif;
+  color: #000;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.button:hover{
+  display: inline;
+  text-align: center;
+  background-color: rgba(166,148,44,1);
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 h1{
   line-height: 150px;
   text-align: center;
-  font-size: auto;
+  font-size: 40px;
   vertical-align: middle;
 }
 h2 {
+  font-size: 40px;
   text-align: center;
 }
 p{
   font-family: serif;
-  font-size: 15px;
+  font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+p.address{
+  font-family: serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+ul li{
+  font-size: 20px;
+  list-style-type: none;
 }
