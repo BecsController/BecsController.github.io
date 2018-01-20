@@ -1,0 +1,53 @@
+body {
+  font-family:     'Aclonica', tahoma, lucida sans-serif, arial, sans-serif;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  align: center;
+}
+header{
+  background: -moz-linear-gradient(-45deg, rgba(166,148,44,1) 4%, rgba(166,148,44,1) 10%, rgba(172,154,54,1) 19%, rgba(178,160,64,1) 28%, rgba(180,162,67,1) 31%, rgba(184,166,74,1) 37%, rgba(189,171,82,1) 44%, rgba(190,172,84,1) 46%, rgba(193,175,88,1) 50%, rgba(201,182,100,0.7) 61%, rgba(222,201,133,0) 90%, rgba(228,206,142,0) 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
+  padding: 10 0 10 0;
+  margin: auto;
+  height: 164px;
+}
+.main-image{
+  height: inherit;
+  border-radius: 5px;
+  border-color:  #f8f0d3;
+  border-width: 15px;
+  border-style: double;
+  float: left;
+  display: block;
+}
+sidenav{
+  height: 100%;
+	width: 20%;
+	position: fixed;
+  background-color: #000;
+  padding-top: 30px;
+  display: inline;
+}
+sidenav a{
+  display: block;
+  color: #f8f0d3;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+sidenav a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: rgba(166,148,44,1);
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: auto;
+  vertical-align: middle;
+}
