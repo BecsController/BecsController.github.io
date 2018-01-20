@@ -24,6 +24,7 @@ section{
   float: left;
   display: block;
   position: absolute;
+  padding-right: 10px;
 }
 .family{
   float: right;
