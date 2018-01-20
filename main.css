@@ -13,21 +13,32 @@ header{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
   padding: 10 0 10 0;
   margin: auto;
-  height: 164px;
+  height: 150px;
+}
+section{
+  background-color: #ffffff;
+  border: 10px solid rgba(166,148,44,1);
+  width: 69%;
+  float: right;
 }
 .main-image{
   height: inherit;
   border-radius: 5px;
-  border-color:  #f8f0d3;
-  border-width: 15px;
-  border-style: double;
+  border: 15px double  #f8f0d3;
   float: left;
   display: block;
+  position: absolute;
+  margin-bottom: 20px;
+}
+.family{
+  float: center;
+  border: 10px solid #f8f0d3;
+  margin: 0 auto 0 auto;
 }
 sidenav{
   height: 100%;
 	width: 20%;
-	position: fixed;
+	position: absolute;
   background-color: #000;
   padding-top: 30px;
   display: inline;
@@ -50,4 +61,14 @@ h1{
   text-align: center;
   font-size: auto;
   vertical-align: middle;
+}
+h2 {
+  text-align: center;
+}
+p{
+  font-family: serif;
+  font-size: 10.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
