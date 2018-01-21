@@ -119,3 +119,8 @@ ul li{
   font-size: 20px;
   list-style-type: none;
 }
+ol li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
