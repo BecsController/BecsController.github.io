@@ -1,5 +1,7 @@
 
 body {
+  width: 100%;
+  align: center;
   font-family: 'Risque','Aclonica', monospace, tahoma, lucida sans-serif, arial, sans-serif;
   background-color: #ffffff;
 }
@@ -38,6 +40,7 @@ sidenav{
   padding-top: 30px;
   display: block;
   height: 100%;
+  width: 100%;
 }
 sidenav a{
   color: #f8f0d3;
