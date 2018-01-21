@@ -1,49 +1,43 @@
+
 body {
-  font-family:     'Aclonica', tahoma, lucida sans-serif, arial, sans-serif;
+  font-family: 'Risque','Aclonica', monospace, tahoma, lucida sans-serif, arial, sans-serif;
   background-color: #ffffff;
-  margin: auto;
-  padding: 0;
-  width: 70%;
-  align: center;
 }
 header{
   background: -moz-linear-gradient(-45deg, rgba(166,148,44,1) 4%, rgba(166,148,44,1) 10%, rgba(172,154,54,1) 19%, rgba(178,160,64,1) 28%, rgba(180,162,67,1) 31%, rgba(184,166,74,1) 37%, rgba(189,171,82,1) 44%, rgba(190,172,84,1) 46%, rgba(193,175,88,1) 50%, rgba(201,182,100,0.7) 61%, rgba(222,201,133,0) 90%, rgba(228,206,142,0) 98%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
-  height: 150px;
+  height: 164px;
 }
 section{
+  width: 100%;
   background-color: #ffffff;
   border: 10px solid rgba(166,148,44,1);
-  width: 70%;
-  float: right;
+  padding: 10px;
 }
 section.footer{
   border: 10px solid rgba(166,148,44,1);
-  width: 70%;
-  float: right;
   background-color: #f8f0d3;
   color: #000;
   text-align: center;
 }
 .main-image{
-  height: inherit;
+  max-height: 164px;
   float: left;
   display: block;
   position: absolute;
 }
 .family{
-  float: right;
+  position: sticky;
   border: 10px double #E2D8AC;
+  width: inherit;
 }
 sidenav{
-  height: 115.7%;
-	width: 20%;
-	position: absolute;
   background-color: #000;
   padding-top: 30px;
   display: block;
+  height: 100%;
 }
 sidenav a{
   color: #f8f0d3;
@@ -64,7 +58,6 @@ sidenav a:hover {
 .button:link{
  display: inline;
  text-align: center;
- font-family: serif;
  color: #000;
  font-size: 25px;
  font-weight: bold;
@@ -75,7 +68,6 @@ sidenav a:hover {
 .button:visited{
   display: inline;
   text-align: center;
-  font-family: serif;
   color: #000;
   font-size: 25px;
   text-decoration: none;
@@ -92,8 +84,10 @@ sidenav a:hover {
   padding-left: 40px;
   padding-right: 40px;
 }
-h1{
-  line-height: 150px;
+h1 {
+  padding-top: 25px;
+  padding-left: 200px;
+  line-height: 164px;
   text-align: center;
   font-size: 40px;
   vertical-align: middle;
@@ -101,16 +95,15 @@ h1{
 h2 {
   font-size: 40px;
   text-align: center;
+  padding: 10px;
 }
 p{
-  font-family: serif;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
 p.address{
-  font-family: serif;
   font-style: normal;
   font-size: 20px;
   text-align: center;
