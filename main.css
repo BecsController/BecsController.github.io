@@ -36,21 +36,21 @@ section{
   border: 10px double #E2D8AC;
   width: inherit;
 }
-sidenav{
+nav{
   background-color: #000;
   padding-top: 30px;
   display: block;
   height: 100%;
   width: 100%;
 }
-sidenav a{
+nav a{
   color: #f8f0d3;
   padding: 8px 16px;
   text-decoration: none;
   display: block;
   font-size: 25px;
 }
-sidenav a:hover {
+nav a:hover {
   background-color: #555;
   color: white;
   font-size: 25px;
