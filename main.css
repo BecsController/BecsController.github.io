@@ -1,9 +1,10 @@
-
+@media (min-width: 550px), (max-width: 960px) {
 body {
   width: 100%;
   align: center;
-  font-family: 'Risque','Aclonica', monospace, tahoma, lucida sans-serif, arial, sans-serif;
+  font-family: 'Aclonica', tahoma, lucida sans-serif, arial, sans-serif;
   background-color: #ffffff;
+}
 }
 header{
   background: -moz-linear-gradient(-45deg, rgba(166,148,44,1) 4%, rgba(166,148,44,1) 10%, rgba(172,154,54,1) 19%, rgba(178,160,64,1) 28%, rgba(180,162,67,1) 31%, rgba(184,166,74,1) 37%, rgba(189,171,82,1) 44%, rgba(190,172,84,1) 46%, rgba(193,175,88,1) 50%, rgba(201,182,100,0.7) 61%, rgba(222,201,133,0) 90%, rgba(228,206,142,0) 98%); /* FF3.6-15 */
@@ -18,7 +19,7 @@ section{
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
 }
-section.footer{
+.footer{
   border: 10px solid rgba(166,148,44,1);
   background-color: #f8f0d3;
   color: #000;
@@ -53,6 +54,7 @@ sidenav a:hover {
   background-color: #555;
   color: white;
   font-size: 25px;
+  text-decoration: none;
 }
 .active {
   background-color: rgba(166,148,44,1);
@@ -88,30 +90,35 @@ sidenav a:hover {
   padding-right: 40px;
 }
 h1 {
-  padding-top: 25px;
-  padding-left: 200px;
-  line-height: 164px;
-  text-align: center;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.indexhead{
+  padding-top: 20px;
+  padding-left: 270px;
+  line-height: 60px;
   font-size: 40px;
-  vertical-align: middle;
 }
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding: 10px;
 }
 p{
+  font-family: serif;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
-p.address{
-  font-style: normal;
+.address a{
+  text-decoration: none;
   font-size: 20px;
   text-align: center;
 }
 ul li{
+  font-family: serif;
   font-size: 20px;
   list-style-type: none;
 }
@@ -119,4 +126,9 @@ ol li a{
   font-size: 20px;
   text-decoration: none;
   color: #000;
+}
+ol li a:hover{
+  text-decoration: none;
+  background-color: rgba(166,148,44,1);
+  color: #ffffff;
 }
