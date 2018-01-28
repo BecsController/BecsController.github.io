@@ -1,4 +1,4 @@
-@media (min-width: 550px), (max-width: 960px) {
+.@media (min-width: 550px), (max-width: 960px) {
 body {
   width: 100%;
   align: center;
@@ -11,7 +11,7 @@ header{
   background: -webkit-linear-gradient(-45deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
-  height: 164px;
+  height: 100%;
 }
 section{
   width: 100%;
@@ -28,8 +28,8 @@ section{
 .main-image{
   max-height: 164px;
   float: left;
-  display: block;
-  position: absolute;
+  display: inline-block ;
+  position: relative;
 }
 .family{
   position: sticky;
