@@ -19,6 +19,9 @@ section{
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
 }
+* {
+  border: 1px solid red !important;
+}
 .footer{
   border: 10px solid rgba(166,148,44,1);
   background-color: #f8f0d3;
@@ -30,6 +33,7 @@ section{
   float: left;
   display: inline-block ;
   position: relative;
+  padding-bottom: 20px;
 }
 .family{
   position: sticky;
@@ -69,7 +73,7 @@ nav a:hover {
  display: inline;
  text-align: center;
  color: #000;
- font-size: 25px;
+ font-size: 1.5vw;
  font-weight: bold;
  text-decoration: none;
  padding-left: 20px;
@@ -79,7 +83,7 @@ nav a:hover {
   display: inline;
   text-align: center;
   color: #000;
-  font-size: 25px;
+  font-size: 1.5vw;
   text-decoration: none;
   font-weight: bold;
   padding-left: 20px;
@@ -96,35 +100,33 @@ nav a:hover {
 }
 h1 {
     text-align: center;
-    font-size: 50px;
-    padding-top: 50px;
+    font-size: 2.5vw;
+    padding-top: 20px;
 }
 .indexhead{
   padding-top: 20px;
-  padding-left: 270px;
   line-height: 60px;
-  font-size: 40px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 2vw;
   text-align: center;
   padding: 10px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   padding: 10px;
 }
 p{
   font-family: serif;
-  font-size: 20px;
+  font-size: 1.3vw;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
 .address a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: center;
 }
 ul li{
