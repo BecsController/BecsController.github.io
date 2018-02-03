@@ -19,9 +19,6 @@ section{
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
 }
-* {
-  border: 1px solid red !important;
-}
 .footer{
   border: 10px solid rgba(166,148,44,1);
   background-color: #f8f0d3;
