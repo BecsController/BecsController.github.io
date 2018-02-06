@@ -95,6 +95,23 @@ nav a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+.wireframes {
+
+  padding: 10px 10px;
+  max-width: 50%;
+}
+.wireone {
+  float: left;
+}
+.wirethree {
+  float: left;
+}
+.wirefour {
+  float: right;
+}
+.wiretwo {
+  float: right;
+}
 h1 {
     text-align: center;
     font-size: 2.5vw;
