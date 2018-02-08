@@ -99,12 +99,12 @@ section{
 }
 .wireframes {
   padding: 10px 10px;
-  max-width: 50%;
+  max-width: 40%;
 }
-.wireone.wirethree {
+.wireone .wirethree {
   float: left;
 }
-.wirefour.wiretwo {
+.wirefour .wiretwo {
   float: right;
 }
 .address a{
