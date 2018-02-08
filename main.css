@@ -83,3 +83,13 @@ nav a:hover {
   text-decoration: none;
   padding: .25em .5em;
 }
+.wireframes {
+  padding: 10px 10px;
+  max-width: 50%;
+}
+.wireone.wirethree {
+  float: left;
+}
+.wirefour.wiretwo {
+  float: right;
+}
