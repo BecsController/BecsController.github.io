@@ -58,3 +58,28 @@ nav a:hover {
   padding-bottom: 0.5em;
   border-top: 2px solid #f8f0d3;
 }
+.button:link{
+ display: inline;
+ text-align: center;
+ color: #000;
+ font-size: 1.5vw;
+ font-weight: bold;
+ text-decoration: none;
+ padding: .25em .5em;
+}
+.button:visited{
+  display: inline;
+  text-align: center;
+  color: #000;
+  font-size: 1.5vw;
+  text-decoration: none;
+  font-weight: bold;
+  padding: .25em .5em;
+}
+.button:hover{
+  text-align: center;
+  background-color: rgba(166,148,44,1);
+  color: #ffffff;
+  text-decoration: none;
+  padding: .25em .5em;
+}
