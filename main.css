@@ -20,3 +20,14 @@
   display: inline;
   position: relative;
 }
+.family{
+  position: relative;
+  border: 10px double #E2D8AC;
+  margin: 0.5em 3em;
+}
+.footer{
+  border: 10px solid rgba(166,148,44,1);
+  background-color: rgba(166,148,44,0.15);
+  color: #000;
+  text-align: center;
+}
