@@ -15,3 +15,8 @@
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
 }
+.main-image{
+  float: left;
+  display: inline;
+  position: relative;
+}
