@@ -96,3 +96,15 @@ nav a:hover {
 .wirefour.wiretwo {
   float: right;
 }
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+h3 {
+  font-weight: bold;
+  padding: 10px;
+}
