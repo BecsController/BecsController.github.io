@@ -34,6 +34,8 @@ section{
   color: #000;
   text-align: center;
 }
+/* Larger than mobile */
+@media (min-width: 400px) {
 nav{
   background-color: #000;
   padding-top: 30px;
@@ -61,11 +63,12 @@ nav a:hover {
   padding-bottom: 0.5em;
   border-top: 2px solid #f8f0d3;
 }
+}
 .button:link{
  display: inline;
  text-align: center;
  color: #000;
- font-size: 1.5vw;
+ font-size: 3rem;
  font-weight: bold;
  text-decoration: none;
  padding: .25em .5em;
@@ -74,7 +77,6 @@ nav a:hover {
   display: inline;
   text-align: center;
   color: #000;
-  font-size: 1.5vw;
   text-decoration: none;
   font-weight: bold;
   padding: .25em .5em;
