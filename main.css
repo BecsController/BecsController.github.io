@@ -40,6 +40,16 @@ nav{
   padding-top: 30px;
   display: block;
 }
+nav:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+  background: #000;
+  width: 35%;
+}
 nav a{
   color: #f8f0d3;
   padding: 8px 16px;
