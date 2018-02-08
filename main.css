@@ -1,15 +1,15 @@
-  body {
-    align: center;
-    font-family: 'Aclonica', tahoma, lucida sans-serif, arial, sans-serif;
-    background-color: #fff;
-  }
-  header{
-    background: -moz-linear-gradient(-45deg, rgba(166,148,44,1) 4%, rgba(166,148,44,1) 10%, rgba(172,154,54,1) 19%, rgba(178,160,64,1) 28%, rgba(180,162,67,1) 31%, rgba(184,166,74,1) 37%, rgba(189,171,82,1) 44%, rgba(190,172,84,1) 46%, rgba(193,175,88,1) 50%, rgba(201,182,100,0.7) 61%, rgba(222,201,133,0) 90%, rgba(228,206,142,0) 98%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
-  }
-  section{
+body {
+  align: center;
+  font-family: 'Aclonica', tahoma, lucida sans-serif, arial, sans-serif;
+  background-color: #fff;
+}
+header{
+  background: -moz-linear-gradient(-45deg, rgba(166,148,44,1) 4%, rgba(166,148,44,1) 10%, rgba(172,154,54,1) 19%, rgba(178,160,64,1) 28%, rgba(180,162,67,1) 31%, rgba(184,166,74,1) 37%, rgba(189,171,82,1) 44%, rgba(190,172,84,1) 46%, rgba(193,175,88,1) 50%, rgba(201,182,100,0.7) 61%, rgba(222,201,133,0) 90%, rgba(228,206,142,0) 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(166,148,44,1) 4%,rgba(166,148,44,1) 10%,rgba(172,154,54,1) 19%,rgba(178,160,64,1) 28%,rgba(180,162,67,1) 31%,rgba(184,166,74,1) 37%,rgba(189,171,82,1) 44%,rgba(190,172,84,1) 46%,rgba(193,175,88,1) 50%,rgba(201,182,100,0.7) 61%,rgba(222,201,133,0) 90%,rgba(228,206,142,0) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
+}
+section{
   width: 100%;
   background-color: #ffffff;
   border: 10px solid rgba(166,148,44,1);
@@ -35,8 +35,6 @@ nav{
   background-color: #000;
   padding-top: 30px;
   display: block;
-  height: 100%;
-  width: 100%;
 }
 nav a{
   color: #f8f0d3;
@@ -54,4 +52,9 @@ nav a:hover {
 .active {
   background-color: rgba(166,148,44,1);
   color: white;
+}
+#activeblog {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid #f8f0d3;
 }
