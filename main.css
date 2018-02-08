@@ -10,7 +10,6 @@ header{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6942c', endColorstr='#00e4ce8e',GradientType=1 );
 }
 section{
-  width: 100%;
   background-color: #ffffff;
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
@@ -113,6 +112,9 @@ h2 {
 h3 {
   font-weight: bold;
   padding: 10px;
+}
+h4 {
+  text-align: center;
 }
 p{
   font-family: serif;
