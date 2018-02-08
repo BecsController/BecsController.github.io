@@ -114,6 +114,7 @@ section{
 h1 {
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 h2 {
   text-align: center;
@@ -143,6 +144,7 @@ ol li a{
   font-size: 2rem;
   text-decoration: none;
   color: #000;
+  padding-left: 20px;
 }
 ol li a:hover{
   text-decoration: none;
