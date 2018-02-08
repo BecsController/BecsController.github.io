@@ -25,6 +25,9 @@ section{
   border: 10px double #E2D8AC;
   margin: 0.5em 3em;
 }
+.indexhead{
+  line-height: 60px;
+}
 .footer{
   border: 10px solid rgba(166,148,44,1);
   background-color: rgba(166,148,44,0.15);
