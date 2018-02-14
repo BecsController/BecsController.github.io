@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Blog Five</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../main.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <header>
+            <h1> Technical Blog Five</h1>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="four columns">
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="../portfolio.html">Portfolio</a>
+            <a href="../blogentries.html">Blog</a>
+            <a class="active" id="activeblog" href="/blog/t5-problem-solving.html">Technical Blog Five - Problem Solving</a>
+          </nav>
+        </div>
+
+        <div class="eight columns">
+            <section>
+              <h3>That time I got blocked....</h3><hr>
+                <p>
+                  So I was trying to create a chess board this sprint in JavaScript.  It basically
+                  asked me to write code to generate a line of eight characters, with either
+                  a blank space or a black space shown by a '#'.  When I had mastered that,
+                  I had to get it to create alternating lines, one starting with blank, the next
+                  line starting with '#' until I had eight lines in total.<br><br>
+                  Sounds simple huh?  No.  I was stuck on this for a little while.  I tried
+                  creating a white line and a black line but then asking it to repeat itself
+                  because a challenge.  I then had to find a way to put the lines together
+                  so that they were under one formula that simply asked whether the number of
+                  the square was even or odd and assigned a black square or a '#' based on that.
+                  I thought I had that figured that out but when I ran the code, the entire
+                  'board' came out the same on every line.<br><br>
+                  In order to solve my problem, I drew a 'chess board', which simply consisted of
+                  numbering each square from 1 - 64.  I realised that every new line would start
+                  with an odd number so if my loop for black and my loop for white both started at
+                  zero, they would return the exact same line.  I changed one of my lines to start
+                  at one instead of a zero and bam! It came out the way intended :)<br><br>
+                  I felt quite frustrated at the time, I spent ages just staring at the code and then
+                  had to tell myself, 'Nope, looking at this the same way over and over isn't going to
+                  produce a different result.'  When I decided to try something completely different
+                  (and off the screen) to look at the problem, I saw what the problem was.  I learnt
+                  that for me, taking pen to paper and drawing out my problem was a great way for
+                  me to think differently about what exactly it was that I needed.  I definitely
+                  should try more psuedocoding!!!!
+                </p><br>
+                </section>
+
+                <section>
+                  <h3>Techniques I feel most comfortable using</h3>
+                  <p>
+                    I am pretty confident googling my problems.  I am pretty good at typing
+                    the right combination of words into google to get it to spit out some suggestions
+                    for me and I don't mind trawling through page after page to find helpful hints.
+                    I have to admit that I haven't tried the rubber ducky method yet, however, my partner
+                    has found me next to my computer muttering to myself and talking through what I
+                    understand out loud so I guess that's a similar thing.  Maybe I just need to direct
+                    my nonsense <strong>to</strong> someone!<br><br>
+                    Throughout this sprint I have been getting better at console.logging because
+                    I have had certain activities where I have tried to build up what I am supposed to be
+                    doing bit by bit and just seeing what gets printed out before trying something else.
+                    My biggest problem sometimes is being overwhelmed by what I'm being asked to do and
+                    spending a long time trying to think of where to start, when if I broke things down into
+                    manageable chunks I would get there a lot better.  I do have to get better at just trying
+                    something and having a go without worrying about whether it's all going to come
+                    out wrong because that's what we are here for after all. <br><br>
+                    <a class="button blog" href="/blog/t5-problem-solving.html">Back to top</a>
+                  </p>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </body>
+        </html>
