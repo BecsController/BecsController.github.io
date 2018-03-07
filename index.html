@@ -4,8 +4,7 @@
     <title>My Coding Journey</title>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
@@ -13,64 +12,82 @@
 
   <body>
     <div class="container">
-      <div class="row">
-          <header class="indexhead twelve columns">
-            <img class="main-image four columns" src="images/Resize.png" alt="My ugly mug">
-            <h1 class ="eight columns">Rebecca Dugdale:<br>My Coding Journey</h1>
+
+      <div class="row slideshow-container">
+        <div class="mySlides fade col-sm-12">
+          <img src="images/Resize.png" alt="My ugly mug">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/#">
+        </div>
+
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+      </div>
+          <div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+      <div class="row no-gutters">
+          <header class="indexhead col-sm-12">
+            <h1>Rebecca Dugdale:<br>My Coding Journey</h1>
           </header>
       </div>
 
-      <div class="row">
-          <div class="four columns">
-            <nav>
-              <a class="active" href="index.html">Home</a>
-              <a href="portfolio.html">Portfolio</a>
-              <a href="blogentries.html">Blog</a>
-            </nav>
-          </div>
+      <div class="row no-gutters">
+        <div class="col-sm-4">
+          <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blogentries.html">Blog</a>
+          </nav>
+        </div>
 
-          <div class="eight columns">
-            <section>
-              <img class="family" src="images/IMG_0905edit.png" alt="My family" width="70%" height="70%">
-              <h2> My beautiful family</h2>
-              <h4>(Minus the newest addition)</h4>
-            </section>
+        <div class="col-sm-8">
+          <section>
+            <img class="family" src="images/IMG_0905edit.png" alt="My family" width="70%" height="70%">
+            <h2> My beautiful family</h2>
+            <h4>(Minus the newest addition)</h4>
+          </section>
 
-            <section>
-              <h2> Haere Mai, Bienvenido, Welcome</h2>
-                <p>
+          <section>
+            <h2> Haere Mai, Bienvenido, Welcome</h2>
+              <p>
                   Hi everyone,<br> Welcome to my coding journey. I'm excited and nervous to begin.<br><br>My name’s Rebecca and I live in Maungaraki with my
                   partner, Dafnis, and our three children. I have been working in Early Childhood Education for the last ten years or so, but I’m now
                   looking to take a different path in my career.<br><br>
                   I am hoping that by the end of this course, I have the confidence and skills necessary to pursue a career in web development.<br><br>
                   Coming from an Early Childhood Education background, and holding a postgraduate diploma in education: Special education,
                   I also hope to eventually gain the ability to code applications that can be used for assistive technology for children with diverse learning needs.
-                </p>
-            </section>
+              </p>
+          </section>
 
-            <section>
-              <h2> Skill set (Currently under development)</h2>
-                <ul>
-                  <li> Html</li>
-                  <li> Css</li>
-                  <li> Java</li>
-                  <li> React</li>
-                  <li> Skeleton</li>
-                  <li> Bootstrap</li>
-                </ul>
-            </section>
+          <section>
+            <h2> Skill set (Currently under development)</h2>
+              <ul>
+                <li> Html</li>
+                <li> Css</li>
+                <li> Java</li>
+                <li> React</li>
+                <li> Skeleton</li>
+                <li> Bootstrap</li>
+              </ul>
+          </section>
 
-            <section class="footer">
-              <h2> Find me here</h2>
-                <p class="address">
+          <section class="footer">
+            <h2> Find me here</h2>
+              <p class="address">
                   Contact information: <a href="mailto:bec.dugdale16@gmail.com">bec.dugdale16@gmail.com</a>
-                </p>
+              </p>
                   <a class="button" target="_blank" href="https://github.com/rebdugnz">Github</a>
                   <a class="button" target="_blank" href="https://www.facebook.com/rebecca.dugdale.nz">Facebook</a><br><br>
                   <a class="button" href="index.html">Back to top</a>
-            </section>
-        </div>
-      </div>
-    </div>
+          </section>
+        </div> <!-- close column -->
+      </div> <!-- close row -->
+    </div> <!-- close container -->
   </body>
 </html>
