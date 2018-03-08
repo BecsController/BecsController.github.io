@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded')
+document.addEventListener('DOMContentLoaded', showSlides)
 
 var slideIndex = 1;
 showSlides(slideIndex);

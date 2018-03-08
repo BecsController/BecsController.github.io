@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="main.css">
 
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+
+    <script src="website.js"></script>
+
   </head>
 
   <body>
@@ -15,20 +18,31 @@
 
       <div class="row slideshow-container">
         <div class="mySlides fade col-sm-12">
-          <img src="images/Resize.png" alt="My ugly mug">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/Resize.png" alt="My ugly mug" style="width:100%">
+          <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides fade">
-          <img src="images/#">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/kapitiIsland.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
         </div>
 
-          <a class="prev">&#10094;</a>
-          <a class="next">&#10095;</a>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/#" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-          <div>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+      <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
 
       <div class="row no-gutters">

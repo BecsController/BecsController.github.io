@@ -26,13 +26,17 @@ section{
   border: 10px solid rgba(166,148,44,1);
   padding: 10px;
 }
+img{
+  width: 100%;
+}
 .family{
   position: relative;
   border: 10px double #E2D8AC;
-  margin: 0.5em 4.75em;
+  margin: 0.5em 0.15em;
 }
 .indexhead{
   line-height: 60px;
+  text-align: center;
 }
 .footer{
   border: 10px solid rgba(166,148,44,1);
@@ -70,6 +74,48 @@ nav{
     font-size: 25px;
     text-decoration: none;
   }
+  /* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 25px;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f8f0d3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
   .active {
     background-color: rgba(166,148,44,1);
     color: white;
@@ -140,10 +186,11 @@ p{
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  font-size: 1.5rem;
 }
 ul li{
   font-family: serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   list-style-type: none;
   padding-left: 20px;
 }
@@ -158,6 +205,10 @@ ol li a:hover{
   background-color: rgba(166,148,44,1);
   color: #ffffff;
 }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
