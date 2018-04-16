@@ -31,8 +31,10 @@ function showSlides(n) {
 }*/
 
 $(document).ready(function(){
-  $(".dropdown-toggle").on("click", function(e){
-    $(this).next('li').toggle();
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ol').toggle();
+    e.stopPropagation();
+    e.preventDefault();
   });
 });
 
