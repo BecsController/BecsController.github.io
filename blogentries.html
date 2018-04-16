@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="main.css">
 
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="website.js"></script>
   </head>
 
   <body>
@@ -24,39 +26,47 @@
           <a href="index.html">Home</a>
           <a href="portfolio.html">Portfolio</a>
           <div class="dropdown">
-            <button class="dropbtn active">Blog entries
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <ol>
-                <li><a href="/blog/cl-time-and-habits-blog.html">Time and Habits Reflection</a></li>
-                <li> <a href="/blog/cl-reflection-blog.html">Cultural Reflection One</a></li>
-                <li><a href="/blog/c2-emotional-intelligence.html">Cultural Reflection Two</a></li>
+            <a class="dropdown-toggle activeColor" data-toggle="dropdown" href="#">Previous Blog entries
+            <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="#">Time and Habits Reflection</a></li>
+                <li><a href="#">Cultural Blog One</a></li>
+                <li><a href="#">Cultural Blog Two</a></li>
                 <li><a href="/blog/c3-meditation-process.html">Cultural Blog Three</a></li>
-                <li><a href="/blog/c4-daily-mindfulness.html">Cultural Blog Four</a></li>
-                <li><a href="/blog/c5-self-confidence.html">Cultural Blog Five</a></li>
-                <li><a href="/blog/c6-control.html">Cultural Blog Six</a></li>
-                <li><a href="/blog/c7-motivation.html">Cultural Blog Seven</a></li>
-                <li><a href="/blog/c8-connecting.html">Cultural Blog Eight</a></li>
+                <li><a href="#">Cultural Blog Four</a></li>
+                <li><a href="#">Cultural Blog Five</a></li>
+                <li><a href="#">Cultural Blog Six</a></li>
+                <li><a href="#">Cultural Blog Seven</a></li>
+                <li><a href="#">Cultural Blog Eight</a></li>
                 <hr>
-                <li><a href="/blog/t2-html-css-dom-p1.html">Technical Blog Part One</a></li>
-                <li><a href="/blog/t2-html-css-dom-pt2.html">Technical Blog Part Two</a></li>
-                <li><a href="/blog/t3-design-to-web-blog.html">Technical Blog Part Three</a></li>
-                <li><a href="/blog/t4-javascript-basics.html">Technical Blog Four</a></li>
-                <li><a href="/blog/t5-problem-solving.html">Technical Blog Five</a></li>
-                <li><a href="/blog/t6-js-language.html">Technical Blog Six</a></li>
-                <li><a href="/blog/t7-scope.html">Technical Blog Seven</a></li>
+                <li><a href="#">Technical Blog One</a></li>
+                <li><a href="#">Technical Blog Two</a></li>
+                <li><a href="#">Technical Blog Three</a></li>
+                <li><a href="#">Technical Blog Four</a></li>
+                <li><a href="#">Technical Blog Five</a></li>
+                <li><a href="#">Technical Blog Six</a></li>
               </ol>
-            </div>
           </div>
         </nav>
       </div>
 
     <div class="col-sm-8">
       <section>
-        <p>
-          Content of latest blog
-        </p>
+          <h3>Technical Blog Seven</h3>
+          <h2>What is Scope and how does it work in Javascript?</h2>
+          <hr>
+            <p>
+              There are two types of scope in JavaScript - local and global.  Local scope means
+              that the object is only available and readable within its function.  Global scope
+              means that it is available throughout the whole programme.<br><br>
+              It's like if you were building a car and you wanted to apply certain
+              characteristics to it, like number of wheels.  If you defined a local variable,
+              it would be like your own personal car that had five wheels. But a global scope
+              would mean you could make car after car with three wheels but they wouldn't be
+              personal to you they would be the same car over and over.
+              <br><br>
+              <a class="button blog" href="/blog/t7-scope.html">Back to top</a>
+            </p>
       </section>
     </div>
   </div>
