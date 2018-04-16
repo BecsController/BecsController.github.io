@@ -138,6 +138,9 @@ p{
   padding-right: 10px;
   padding-bottom: 10px;
 }
+li{
+  color: #f8f0d3;
+}
 ul li{
   font-family: serif;
   font-size: 1rem;
