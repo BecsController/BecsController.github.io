@@ -31,10 +31,14 @@ function showSlides(n) {
 }*/
 
 $(document).ready(function(){
-  $('.dropdown a.test').on("click", function(e){
-    $(this).next('ol').toggle();
-    e.stopPropagation();
-    e.preventDefault();
+  $('.click-one').click(function(){
+    $('li').toggle('hide');
+  });
+});
+
+$(document).ready(function(){
+  $('.click-two').click(function(){
+    $('li').toggle('hide');
   });
 });
 
