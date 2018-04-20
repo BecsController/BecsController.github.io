@@ -150,15 +150,17 @@ ol li{
 ol li a{
   font-size: 1.5rem;
   text-decoration: none;
-  color: #000;
+  color: #f8f0d3;
   padding-left: 20px;
 }
 ol li a:hover{
   text-decoration: none;
-  background-color: rgba(166,148,44,1);
-  color: #ffffff;
+  background-color: #555;
+  color: #fff;
 }
-
+.hide {
+  display: none;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -252,4 +254,7 @@ ol li a:hover{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.caret {
+  color: #f8f0d3;
 }
