@@ -27,7 +27,7 @@ $('.next').click(function(){
     currentIndex = 0;
   }
   cycleItems();
-});
+}, 2000);
 
 $('.prev').click(function(){
   clearInterval(autoSlide);
@@ -36,7 +36,7 @@ $('.prev').click(function(){
     currentIndex = itemAmt - 1;
   }
   cycleItems();
-});
+}, 2000);
 
 $(document).ready(function(){
   $('.click-one').click(function(){
