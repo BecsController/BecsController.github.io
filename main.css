@@ -194,6 +194,7 @@ ol li a:hover{
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
+  font-family: serif;
 }
 /* Position the "next button" to the right */
 .next {
