@@ -40,14 +40,14 @@ $('.prev').click(function(){
 
 $(document).ready(function(){
   $('.click-one').click(function(){
-    $('li').toggle('.hide');
+    $('ol').toggle('.hide');
   });
 });
 
 $(document).ready(function(){
   $('.click-two').click(function(){
-    $('li').toggle('.hide');
-  });
+   $('ol').toggle('.hide');
+ });
 });
 
 }

@@ -208,3 +208,6 @@ ol li a:hover{
 .caret {
   color: #f8f0d3;
 }
+.hide{
+  display: none;
+}
