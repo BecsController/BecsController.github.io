@@ -1,44 +1,52 @@
 document.addEventListener('DOMContentLoaded', start)
 
 function start(){
-/*
-var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+  var currentIndex = 0;
+  items = $('.slideshow-container div');
+  itemAmt = items.length;
+
+function cycleItems() {
+  var item = $('.slideshow-container div').eq(currentIndex);
+  items.hide();
+  item.css('display', 'block');
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+var autoSlide = setInterval(function(){
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1){
+    currentIndex = 0;
+  }
+  cycleItems();
+}, 2000);
 
-function showSlides(n) {
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (var i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+$('.next').click(function(){
+  clearInterval(autoSlide);
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1){
+    currentIndex = 0;
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+  cycleItems();
+});
+
+$('.prev').click(function(){
+  clearInterval(autoSlide);
+  currentIndex -= 1;
+  if (currentIndex < 0){
+    currentIndex = itemAmt - 1;
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}*/
+  cycleItems();
+});
 
 $(document).ready(function(){
   $('.click-one').click(function(){
-    $('li').toggle('hide');
+    $('li').toggle('.hide');
   });
 });
 
 $(document).ready(function(){
   $('.click-two').click(function(){
-    $('li').toggle('hide');
+    $('li').toggle('.hide');
   });
 });
 
