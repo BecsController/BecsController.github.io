@@ -4,53 +4,69 @@
     <title>My blog Index</title>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="website.js"></script>
   </head>
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <header>
-          <h1> My personal blog</h1>
-        </header>
+  <body>
+    <div class="container">
+      <div class="row no-gutters">
+          <header class="indexhead col-sm-12">
+            <h1> My personal blog</h1>
+          </header>
       </div>
-    </div>
 
-  <div class="row">
-    <div class="four columns">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a class="active" href="blogentries.html">Blog</a>
-      </nav>
-    </div>
+    <div class="row no-gutters">
+      <div class="col-sm-4">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a class="activeColor" href="#">Previous Blog entries</a>
+            <a href="/blog/cl-time-and-habits-blog.html">Time and Habits Reflection</a>
+            <a class="dropdown-toggle click-one" href="#">Cultural Blogs<span class="caret"></span></a>
+            <ol class="hide">
+              <li><a href="/blog/cl-reflection-blog.html">Cultural Blog One</a></li>
+              <li><a href="/blog/c2-emotional-intelligence.html">Cultural Blog Two</a></li>
+              <li><a href="/blog/c3-meditation-process.html">Cultural Blog Three</a></li>
+              <li><a href="/blog/c4-daily-mindfulness.html">Cultural Blog Four</a></li>
+              <li><a href="/blog/c5-self-confidence.html">Cultural Blog Five</a></li>
+              <li><a href="/blog/c6-control.html">Cultural Blog Six</a></li>
+              <li><a href="/blog/c7-motivation.html">Cultural Blog Seven</a></li>
+              <li><a href="/blog/c8-connecting.html">Cultural Blog Eight</a></li>
+            </ol>
+              <hr>
+            <a class="dropdown-toggle click-two" href="#">Technical Blogs<span class="caret"></span></a>
+            <ol class="hide">
+              <li><a href="/blog/t2-html-css-dom-p1.html">Technical Blog One</a></li>
+              <li><a href="/blog/t2-html-css-dom-pt2.html">Technical Blog Two</a></li>
+              <li><a href="/blog/t3-design-to-web-blog.html">Technical Blog Three</a></li>
+              <li><a href="/blog/t4-javascript-basics.html">Technical Blog Four</a></li>
+              <li><a href="/blog/t5-problem-solving.html">Technical Blog Five</a></li>
+              <li><a href="/blog/t6-js-language.html">Technical Blog Six</a></li>
+            </ol>
+          </nav>
+      </div>
 
-    <div class="eight columns">
+    <div class="col-sm-8">
       <section>
-        <ol>
-          <li><a href="/blog/cl-time-and-habits-blog.html">Time and Habits Reflection</a></li>
-          <li> <a href="/blog/cl-reflection-blog.html">Cultural Reflection One</a></li>
-          <li><a href="/blog/c2-emotional-intelligence.html">Cultural Reflection Two</a></li>
-          <li><a href="/blog/c3-meditation-process.html">Cultural Blog Three</a></li>
-          <li><a href="/blog/c4-daily-mindfulness.html">Cultural Blog Four</a></li>
-          <li><a href="/blog/c5-self-confidence.html">Cultural Blog Five</a></li>
-          <li><a href="/blog/c6-control.html">Cultural Blog Six</a></li>
-          <li><a href="/blog/c7-motivation.html">Cultural Blog Seven</a></li>
-          <li><a href="/blog/c8-connecting.html">Cultural Blog Eight</a></li>
+          <h3>Latest Blog: Technical Blog Seven</h3>
+          <h2>What is Scope and how does it work in Javascript?</h2>
           <hr>
-          <li><a href="/blog/t2-html-css-dom-p1.html">Technical Blog Part One</a></li>
-          <li><a href="/blog/t2-html-css-dom-pt2.html">Technical Blog Part Two</a></li>
-          <li><a href="/blog/t3-design-to-web-blog.html">Technical Blog Part Three</a></li>
-          <li><a href="/blog/t4-javascript-basics.html">Technical Blog Four</a></li>
-          <li><a href="/blog/t5-problem-solving.html">Technical Blog Five</a></li>
-          <li><a href="/blog/t6-js-language.html">Technical Blog Six</a></li>
-          <li><a href="/blog/t7-scope.html">Technical Blog Seven</a></li>
-        </ol>
+            <p>
+              There are two types of scope in JavaScript - local and global.  Local scope means
+              that the object is only available and readable within its function.  Global scope
+              means that it is available throughout the whole programme.<br><br>
+              It's like if you were building a car and you wanted to apply certain
+              characteristics to it, like number of wheels.  If you defined a local variable,
+              it would be like your own personal car that had five wheels. But a global scope
+              would mean you could make car after car with three wheels but they wouldn't be
+              personal to you they would be the same car over and over.
+              <br><br>
+            </p>
       </section>
     </div>
   </div>
