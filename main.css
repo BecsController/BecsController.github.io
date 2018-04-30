@@ -131,6 +131,7 @@ h3 {
 h4 {
   text-align: center;
   color: rgba(166,148,44,1);
+  text-shadow: 2px 1px 0px rgba(7, 0, 0, 1);
 }
 p{
   font-family: serif;
