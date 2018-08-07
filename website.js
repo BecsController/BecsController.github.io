@@ -40,13 +40,13 @@ $('.prev').click(function(){
 
 $(document).ready(function(){
   $('.click-one').click(function(){
-    $('ol').toggle('.hide');
+    $('.hide-one').toggle('.hide');
   });
 });
 
 $(document).ready(function(){
   $('.click-two').click(function(){
-   $('ol').toggle('.hide');
+   $('.hide-two').toggle('.hide');
  });
 });
 
